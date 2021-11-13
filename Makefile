@@ -1,7 +1,10 @@
-.PHONY: default build-all
+.PHONY: default install
 
 default:
-	yarn install --frozen-lockfile
+	make install
+
+install:
+	pnpm i -r
 
 build-all:
-	yarn workspaces foreach run build
+	pnpm run -r build

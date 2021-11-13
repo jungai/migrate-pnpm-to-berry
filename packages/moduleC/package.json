@@ -12,6 +12,6 @@
     "typescript": "4.3.3"
   },
   "dependencies": {
-    "module-a": "workspace:^"
+    "module-a": "1.0.0"
   }
 }
