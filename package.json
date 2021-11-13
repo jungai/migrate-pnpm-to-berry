@@ -1,5 +1,5 @@
 {
-  "name": "yarn-berry-is-good-or-not",
+  "name": "migrate-pnpm-to-berry",
   "packageManager": "yarn@3.1.0",
   "workspaces": [
     "packages/*"

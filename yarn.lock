@@ -1385,9 +1385,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yarn-berry-is-good-or-not@workspace:.":
+"migrate-pnpm-to-berry@workspace:.":
   version: 0.0.0-use.local
-  resolution: "yarn-berry-is-good-or-not@workspace:."
+  resolution: "migrate-pnpm-to-berry@workspace:."
   dependencies:
     "@yarnpkg/sdks": ^2.5.1-rc.1
   languageName: unknown

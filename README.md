@@ -1,8 +1,8 @@
-# yarn-berry-is-good-or-not
+# migrate-pnpm-to-berry
 
 ## Goal
 
-move `pnpm` to `berry` follow this branch [with pnpm](https://github.com/jungai/yarn-berry-is-good-or-not/tree/pnpm)
+move `pnpm` to `berry` follow this branch [with pnpm](https://github.com/jungai/migrate-pnpm-to-berry/tree/pnpm)
 
 ## Problems
 
