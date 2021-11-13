@@ -1,0 +1,17 @@
+{
+  "name": "module-c",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p ./tsconfig.json",
+    "dev": "node ."
+  },
+  "devDependencies": {
+    "typescript": "4.3.3"
+  },
+  "dependencies": {
+    "module-a": "workspace:^"
+  }
+}
