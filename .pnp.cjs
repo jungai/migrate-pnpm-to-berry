@@ -19,7 +19,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
     ],
     "dependencyTreeRoots": [
       {
-        "name": "yarn-berry-is-good-or-not",
+        "name": "migrate-pnpm-to-berry",
         "reference": "workspace:."
       },
       {
@@ -38,10 +38,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
     "enableTopLevelFallback": true,
     "ignorePatternData": "(^(?:\\.yarn\\/sdks(?:\\/(?!\\.{1,2}(?:\\/|$))(?:(?:(?!(?:^|\\/)\\.{1,2}(?:\\/|$)).)*?)|$))$)",
     "fallbackExclusionList": [
+      ["migrate-pnpm-to-berry", ["workspace:."]],
       ["module-a", ["workspace:packages/moduleA"]],
       ["module-b", ["workspace:packages/moduleB"]],
-      ["module-c", ["workspace:packages/moduleC"]],
-      ["yarn-berry-is-good-or-not", ["workspace:."]]
+      ["module-c", ["workspace:packages/moduleC"]]
     ],
     "fallbackPool": [
     ],
@@ -1014,6 +1014,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["migrate-pnpm-to-berry", [
+        ["workspace:.", {
+          "packageLocation": "./",
+          "packageDependencies": [
+            ["migrate-pnpm-to-berry", "workspace:."],
+            ["@yarnpkg/sdks", "npm:2.5.1-rc.1"]
+          ],
+          "linkType": "SOFT",
+        }]
+      ]],
       ["mimic-response", [
         ["npm:1.0.1", {
           "packageLocation": "./.yarn/cache/mimic-response-npm-1.0.1-f6f85dde84-034c78753b.zip/node_modules/mimic-response/",
@@ -1616,16 +1626,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["yallist", "npm:4.0.0"]
           ],
           "linkType": "HARD",
-        }]
-      ]],
-      ["yarn-berry-is-good-or-not", [
-        ["workspace:.", {
-          "packageLocation": "./",
-          "packageDependencies": [
-            ["yarn-berry-is-good-or-not", "workspace:."],
-            ["@yarnpkg/sdks", "npm:2.5.1-rc.1"]
-          ],
-          "linkType": "SOFT",
         }]
       ]]
     ]
