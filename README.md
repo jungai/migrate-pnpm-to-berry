@@ -1,3 +1,3 @@
-# yarn-berry-is-good-or-not
+# migrate-pnpm-to-berry
 
 pnpm style
