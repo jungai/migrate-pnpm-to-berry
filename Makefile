@@ -1,4 +1,4 @@
-.PHONY: default install
+.PHONY: default install build-all
 
 default:
 	make install
