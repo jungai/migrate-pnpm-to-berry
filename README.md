@@ -1,5 +1,9 @@
 # yarn-berry-is-good-or-not
 
+## Goal
+
+move `pnpm` to `berry` follow this branch [with pnpm](https://github.com/jungai/yarn-berry-is-good-or-not/tree/pnpm)
+
 ## Problems
 
 each workspace module can't resolve -> moduleC cannot find module module-a
